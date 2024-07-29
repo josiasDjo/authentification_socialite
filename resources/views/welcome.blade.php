@@ -20,11 +20,12 @@
     <body class="font-sans antialiased dark:bg-black dark:text-white/50 justify-center items-center flex">
         <div class="w-96 h-96 bg-gray-700 rounded-lg justify-center m-auto flex flex-col px-10 text-center">
             <h2 class="pb-16 font-semibold">Connectez vous</h2>
-            <button class="border-2 border-solid border-white my-3 rounded-md px-3 py-2">
-                <img src="" alt="">
-                <p>Continuer avec google</p>
-            </button>
-
+            <a href="/web.php">
+                <button class="border-2 border-solid border-white my-3 rounded-md px-3 py-2">
+                    <img src="" alt="">
+                    <p>Continuer avec google</p>
+                </button>
+            </a>
             <button class="border-2 border-solid border-white my-3 rounded-md px-3 py-2">
                 <img src="" alt="">
                 <p>Continuer avec facebook</p>
