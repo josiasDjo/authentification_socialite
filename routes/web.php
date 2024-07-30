@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/{provider}', function($provider) {
+Route::get('/login{provider}', function($provider) {
     return Socialite::driver($provider)->redirect();
 }) -> name('social.login');
 
